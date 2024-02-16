@@ -14,6 +14,7 @@
     @apply bg-zinc-900/90;
     @apply font-mono antialiased text-white;
     @apply overflow-hidden;
+    @apply no-underline;
   }
   button {
     -webkit-app-region: no-drag;
