@@ -12,7 +12,7 @@ function createWindow(): void {
     height: 670,
     show: false,
     autoHideMenuBar: true,
-    ...(process.platform === 'linux' ? { icon } : {}),
+    ...(process.platform !== 'linux' ? { icon } : {}),
     center: true,
     title: 'Notes',
     frame: true,
